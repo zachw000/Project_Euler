@@ -27,10 +27,10 @@ answer = 0
 threes = mults["three"]
 fives = mults["five"]
 
-answer += sum([threes, fives])
-
 fives = sum(fives)
 threes = sum(threes)
+
+answer += sum([threes, fives])
 
 print(mults["three"])
 print()

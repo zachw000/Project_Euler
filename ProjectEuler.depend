@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1431776908 source:c:\users\zach\documents\codeblocks\projecteuler\projecteuler.cpp
+	"ProjectEuler.h"
+	<iostream>
+	<cmath>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"ChallengeFive.h"
+	"ChallengeSix.h"
+	"ChallengeSeven.h"
+
+1431748923 c:\users\zach\documents\codeblocks\projecteuler\projecteuler.h
+
+1431776878 source:c:\users\zach\documents\codeblocks\projecteuler\challenges.cpp
+	<math.h>
+	<cmath>
+	<iostream>
+	"challenges.h"
+
+1431776840 c:\users\zach\documents\codeblocks\projecteuler\challenges.h
+
+1431773182 source:c:\users\zach\documents\codeblocks\projecteuler\challengefive.cpp
+	"ChallengeFive.h"
+	<iostream>
+
+1431772179 c:\users\zach\documents\codeblocks\projecteuler\challengefive.h
+	"challenges.h"
+	"ProjectEuler.h"
+
+1431775534 source:c:\users\zach\documents\codeblocks\projecteuler\challengesix.cpp
+	"ChallengeSix.h"
+
+1431775363 c:\users\zach\documents\codeblocks\projecteuler\challengesix.h
+	"challenges.h"
+	"ProjectEuler.h"
+	<iostream>
+	<cmath>
+
+1431777695 source:c:\users\zach\documents\codeblocks\projecteuler\challengeseven.cpp
+	"ChallengeSeven.h"
+
+1431776466 c:\users\zach\documents\codeblocks\projecteuler\challengeseven.h
+	"ProjectEuler.h"
+	"challenges.h"
+	<iostream>
+

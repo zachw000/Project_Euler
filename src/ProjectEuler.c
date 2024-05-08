@@ -25,3 +25,17 @@ int main(int argc, char **argv) {
 void process_commands(char **tkns) {
 
 }
+
+// Creates a new linked list with n components
+Vector init_vec(int v_size) {
+    Vector v;
+    v.scalar = 0.0;
+
+    if (v_size > 1) {
+        // Decrements number of remaining components
+        v.next_component = init_vec(--v_size);
+        return v;
+    } else {
+        return v;
+    }
+}

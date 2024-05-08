@@ -17,7 +17,22 @@
 #include    <bool.h>
 #include    <string.h>
 #include    <ncurses.h>
+#include    <math.h>
+
+// Special 2-dimensional vector representing complex number
+typedef struct {
+    double  real;
+    double  imag;
+} ComplexNumber;
+
+// Vector of n length implemented via linked list
+typedef struct {
+    double  scalar;
+    // Address to another vector object
+    Vector  *next_component =   nullptr;
+} Vector;
 
 void process_commands(char **tkns);
+Vector init_vec(int v_size);
 
 #endif
